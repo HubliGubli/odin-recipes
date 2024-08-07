@@ -1,7 +1,61 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+    gap: 1em;
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  button {
+    padding: 20px 50px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: rgba(99, 16, 11, 0.44);
+    border-radius: 15%;
+}
+
+.logo {
+    width: 10%;
+}
+
 h1, p{
     text-align: center;
 }
 
 body {
-    background-image: url(https://st2.depositphotos.com/2576363/6461/i/450/depositphotos_64612467-stock-photo-ingredients-for-baking-on-black.jpg);
+    background-image: url(https://images.pexels.com/photos/5645159/pexels-photo-5645159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 1000px;
 }
+
+h1 {
+    font-size: 100px;
+    margin-bottom: -20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.about-divider {
+    text-align: center;
+}
+
